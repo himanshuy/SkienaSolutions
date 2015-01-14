@@ -3,7 +3,7 @@ package datastructure;
 public class BalancedParenthesis {
 
 	public static void main(String[] args) {
-
+		System.out.println(isBalanced("(())("));
 	}
 	
 	public static boolean isBalanced(String str) {
